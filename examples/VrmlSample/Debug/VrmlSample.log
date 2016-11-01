@@ -1,0 +1,35 @@
+﻿Build started 01/08/2011 22:09:45.
+     1>Project "D:\Projetos\SoletRA\examples\VrmlSample\VrmlSample.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\VrmlSample.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\VrmlSample.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         d:\Arquivos de Programas\Visual Studio 2010\VC\bin\CL.exe /c /I../../include /ZI /nologo /W3 /WX- /Od /Oy- /D ENABLE_VRML /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"D:\Projetos\SoletRA\bin\VrmlSample.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\winsock.h(304): warning C4005: 'INADDR_ANY' : macro redefinition
+                 d:\projetos\soletra\include\sdl\sdl_net.h(85) : see previous definition of 'INADDR_ANY'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\winsock.h(306): warning C4005: 'INADDR_BROADCAST' : macro redefinition
+                 d:\projetos\soletra\include\sdl\sdl_net.h(91) : see previous definition of 'INADDR_BROADCAST'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\winsock.h(307): warning C4005: 'INADDR_NONE' : macro redefinition
+                 d:\projetos\soletra\include\sdl\sdl_net.h(88) : see previous definition of 'INADDR_NONE'
+     1>d:\projetos\soletra\examples\vrmlsample\main.cpp(1242): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projetos\soletra\examples\vrmlsample\main.cpp(1242): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projetos\soletra\examples\vrmlsample\main.cpp(1441): warning C4091: 'static ' : ignored on left of 'VrmlSample' when no variable is declared
+     1>d:\projetos\soletra\examples\vrmlsample\main.cpp(1317): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>d:\projetos\soletra\examples\vrmlsample\main.cpp(1360): warning C4244: 'argument' : conversion from 'clock_t' to 'float', possible loss of data
+     1>d:\projetos\soletra\examples\vrmlsample\main.cpp(1361): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projetos\soletra\examples\vrmlsample\main.cpp(1362): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+       Link:
+         d:\Arquivos de Programas\Visual Studio 2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../bin\VrmlSample.exe" /NOLOGO /LIBPATH:D:\Projetos\SoletRA\bin /LIBPATH:../../lib SudaRA.lib VRMLModel_d.lib opencv_core220.lib opencv_highgui220.lib opencv_imgproc220.lib /NODEFAULTLIB:LIBCMT.lib /NODEFAULTLIB:msvcrt.lib /MANIFEST /ManifestFile:"Debug\VrmlSample.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Projetos\SoletRA\bin\VrmlSample.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../bin\VrmlSample.lib" /MACHINE:X86 Debug\main.obj
+         VrmlSample.vcxproj -> D:\Projetos\SoletRA\examples\VrmlSample\../../bin\VrmlSample.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../../bin\VrmlSample.exe;#1" /manifest Debug\VrmlSample.exe.intermediate.manifest "d:\Arquivos de Programas\Visual Studio 2010\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Debug\VrmlSample.unsuccessfulbuild".
+         Touching "Debug\VrmlSample.lastbuildstate".
+     1>Done Building Project "D:\Projetos\SoletRA\examples\VrmlSample\VrmlSample.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.43
